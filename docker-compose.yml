@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dotnetplayground:
+    image: dotnetplayground
+    build:
+      context: .\DotNetPlayground
+      dockerfile: Dockerfile
